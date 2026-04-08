@@ -21,12 +21,13 @@ A/B testing analysis evaluating the impact of a new landing page design on user 
 - **Power BI**: Interactive dashboard
 
 ## Project Structure
+
+```text
 ├── data/
 │   ├── countries.csv
-│   └── ab_data.csv
-https://www.kaggle.com/datasets/putdejudomthai/ecommerce-ab-testing-2022-dataset1/data
+│   ├── ab_data.csv
 ├── scripts/
 │   ├── abtest.ipynb
 │   └── ab_test_analysis.sql
-├── dashboard/
-│   └── ABTEST.pbix
+└── dashboard/
+    └── ABTEST.pbix
